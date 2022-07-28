@@ -16,4 +16,8 @@ kafka-topics.bat --create --topic my-events --bootstrap-server localhost:9092
 6-make
 kafka-console-consumer.bat --topic my-events --from-beginning --bootstrap-server localhost:9092
 
+-------rabbit
+------------rabbit
+go to rabbit folder/sbin
 
+rabbitmq-server.bat
